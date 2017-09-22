@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 500px;
+    background-color: cyan;
+    margin:0 auto;
+}
+h1, h2  {
+    color: red;
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+}
+p {
+    margin: 50px 10px 50px 10px;
+    border:solid black 2px;
+    padding: 10px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul {
+    background-color: black;
+}
+nav ul li a { /* kombinerte selectorer hvis man bare skal ha det på noen av de */
+    display: inline-block;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+}
+a {
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+nav ul li a:active{
+    background-color:lightgray;
+}
+.aktiv {
+    background-color: darkgray;
+}
+img:hover{
+    width:600px;
+}
